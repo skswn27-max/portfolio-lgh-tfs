@@ -233,21 +233,130 @@
                     </div>
 
                     <div class="season-report-showcase" style="margin-top:32px;">
-                        <div class="showcase-header"><span class="detail-label">OUTPUT: 채널별 트렌드 분석 자료 (26SS)</span></div>
-                        <p style="font-size:14px;color:var(--text-muted);margin:8px 0 20px;">채널별(IG · SEO · YT) 경쟁사 벤치마크 & 트렌드 분석 → 자사 바이럴 전략 수립 기초 자료</p>
-                        <div class="showcase-grid showcase-grid-3">
-                            <div class="showcase-item doc-item">
-                                <img src="images/strategy-docs/slide_05.png" alt="IG 바이럴 트렌드 분석">
-                                <span>IG 트렌드 & 경쟁사 분석</span>
+                        <div class="showcase-header"><span class="detail-label">OUTPUT: 채널별 트렌드 분석 대시보드 (26SS)</span></div>
+                        <p style="font-size:14px;color:var(--text-muted);margin:8px 0 20px;">채널별(IG · SEO · YT) 경쟁사 데이터 크롤링 → 벤치마크 분석 → 트렌드 인사이트 도출</p>
+
+                        <!-- 트렌드 대시보드 3-카드 그리드 -->
+                        <div class="trend-dashboard">
+
+                            <!-- IG 트렌드 카드 -->
+                            <div class="trend-card">
+                                <div class="trend-card-header trend-card-ig">
+                                    <span class="trend-card-icon">IG</span>
+                                    <div>
+                                        <h4>Instagram 트렌드</h4>
+                                        <span class="trend-card-crawl">20,600건 크롤링</span>
+                                    </div>
+                                </div>
+                                <div class="trend-card-body">
+                                    <div class="trend-section">
+                                        <span class="trend-section-label">경쟁사 IG 분석</span>
+                                        <table class="trend-table">
+                                            <thead><tr><th>브랜드</th><th>팔로워</th><th>ER</th></tr></thead>
+                                            <tbody>
+                                                <tr><td>Alo Yoga</td><td>9M</td><td>3.45%</td></tr>
+                                                <tr><td>룰루레몬</td><td>5.35M</td><td>0.08%</td></tr>
+                                                <tr><td>뷰오리</td><td>1.14M</td><td>0.22%</td></tr>
+                                                <tr><td>스포티앤리치</td><td>846K</td><td>1.2~2.5%</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="trend-section">
+                                        <span class="trend-section-label">콘텐츠 앵글 TOP 5</span>
+                                        <div class="trend-bars">
+                                            <div class="trend-bar-row"><span class="trend-bar-label">앰버서더 콜라보</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-ig" style="width:100%"></div></div><span class="trend-bar-val">2,800</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">커뮤니티 이벤트</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-ig" style="width:89%"></div></div><span class="trend-bar-val">2,500</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">스토리텔링</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-ig" style="width:54%"></div></div><span class="trend-bar-val">1,500</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">라이프스타일 연출</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-ig" style="width:43%"></div></div><span class="trend-bar-val">1,200</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">UGC / 리그램</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-ig" style="width:36%"></div></div><span class="trend-bar-val">1,000</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="trend-insight-box">
+                                        <span class="material-symbols-outlined" style="font-size:16px;color:#E1306C;">lightbulb</span>
+                                        <p><strong>릴스 포맷</strong>으로 도달 확장 + <strong>셀럽 이슈 기반</strong> 커뮤니티 이벤트 & 상품 중심 콘텐츠 발행</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="showcase-item doc-item">
-                                <img src="images/strategy-docs/slide_09.png" alt="SEO 바이럴 트렌드 분석">
-                                <span>SEO 트렌드 & 경쟁사 분석</span>
+
+                            <!-- SEO 트렌드 카드 -->
+                            <div class="trend-card">
+                                <div class="trend-card-header trend-card-seo">
+                                    <span class="trend-card-icon">SEO</span>
+                                    <div>
+                                        <h4>네이버 블로그 SEO 트렌드</h4>
+                                        <span class="trend-card-crawl">4,158건 크롤링 → 1,845건 필터링</span>
+                                    </div>
+                                </div>
+                                <div class="trend-card-body">
+                                    <div class="trend-section">
+                                        <span class="trend-section-label">주력 노출 아이템</span>
+                                        <div class="trend-bars">
+                                            <div class="trend-bar-row"><span class="trend-bar-label">레깅스</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:100%"></div></div><span class="trend-bar-val">222건</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">바지 / 팬츠</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:79%"></div></div><span class="trend-bar-val">176건</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">브라 / 메크립</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:59%"></div></div><span class="trend-bar-val">131건</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">상의 / 후디</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:48%"></div></div><span class="trend-bar-val">107건</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">트랙팩 / 가방</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:47%"></div></div><span class="trend-bar-val">105건</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="trend-section">
+                                        <span class="trend-section-label">블로그 앵글 순위</span>
+                                        <div class="trend-bars">
+                                            <div class="trend-bar-row"><span class="trend-bar-label">브랜드 콜라보</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:100%"></div></div><span class="trend-bar-val">504건</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">착용 / 사이즈리뷰</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:73%"></div></div><span class="trend-bar-val">366건</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">매장 방문 후기</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:52%"></div></div><span class="trend-bar-val">264건</span></div>
+                                            <div class="trend-bar-row"><span class="trend-bar-label">배색 / 컬러 조합</span><div class="trend-bar-track"><div class="trend-bar-fill trend-fill-seo" style="width:39%"></div></div><span class="trend-bar-val">197건</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="trend-insight-box">
+                                        <span class="material-symbols-outlined" style="font-size:16px;color:#03C75A;">lightbulb</span>
+                                        <p><strong>매장 콘텐츠</strong>와 제품 상세 리뷰(사이즈, 컬러, 피팅감)에 대한 <strong>수요 多</strong></p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="showcase-item doc-item">
-                                <img src="images/strategy-docs/slide_13.png" alt="YT 바이럴 트렌드 분석">
-                                <span>YT 트렌드 & 경쟁사 분석</span>
+
+                            <!-- YT 트렌드 카드 -->
+                            <div class="trend-card">
+                                <div class="trend-card-header trend-card-yt">
+                                    <span class="trend-card-icon">YT</span>
+                                    <div>
+                                        <h4>YouTube 트렌드</h4>
+                                        <span class="trend-card-crawl">1,471건 크롤링 → 660건 필터링</span>
+                                    </div>
+                                </div>
+                                <div class="trend-card-body">
+                                    <div class="trend-section">
+                                        <span class="trend-section-label">핵심 수치</span>
+                                        <div class="trend-kpi-grid">
+                                            <div class="trend-kpi"><span class="trend-kpi-value">42.9만</span><span class="trend-kpi-label">Shorts 평균 조회수</span></div>
+                                            <div class="trend-kpi"><span class="trend-kpi-value">5.5배</span><span class="trend-kpi-label">숏폼 vs 롱폼 조회비</span></div>
+                                            <div class="trend-kpi"><span class="trend-kpi-value">90건</span><span class="trend-kpi-label">3개월 신규 콘텐츠</span></div>
+                                            <div class="trend-kpi"><span class="trend-kpi-value">375만</span><span class="trend-kpi-label">총 조회수 히트</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="trend-section">
+                                        <span class="trend-section-label">트렌드 인사이트</span>
+                                        <div class="trend-insight-list">
+                                            <div class="trend-insight-item">
+                                                <span class="trend-insight-num">1</span>
+                                                <p><strong>숏폼이 왕</strong> — Shorts 평균 조회수가 롱폼의 5.5배</p>
+                                            </div>
+                                            <div class="trend-insight-item">
+                                                <span class="trend-insight-num">2</span>
+                                                <p><strong>비교 콘텐츠</strong> 포함이 최초 인지의 핵심 — MICRO 크리에이터 티어리스트 노출 필요</p>
+                                            </div>
+                                            <div class="trend-insight-item">
+                                                <span class="trend-insight-num">3</span>
+                                                <p><strong>매장 = 콘텐츠 팩토리</strong> — 팝업/매장 후기가 양대 채널 1위 테마</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trend-insight-box">
+                                        <span class="material-symbols-outlined" style="font-size:16px;color:#FF0000;">lightbulb</span>
+                                        <p><strong>숏폼 위주</strong> 조회수 확산 + 체형별·전문가 제품 비교 콘텐츠 & <strong>매장 연계</strong> 확보</p>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
 
