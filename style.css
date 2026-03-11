@@ -1307,6 +1307,13 @@ section {
 .toc-desc {
     font-size: 0.9rem;
     color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+.toc-guide {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    opacity: 0.7;
     margin-bottom: 40px;
 }
 
