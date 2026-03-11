@@ -734,8 +734,8 @@ body {
     margin-top: 24px;
 }
 
-.brand-highlight {
-    color: var(--text-primary, #1a1a2e);
+.hero-career .brand-highlight {
+    color: #1a1a2e !important;
     font-weight: 600;
     letter-spacing: 0.05em;
 }
