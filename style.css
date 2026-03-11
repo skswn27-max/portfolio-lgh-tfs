@@ -735,7 +735,7 @@ body {
 }
 
 .brand-highlight {
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--text-primary, #1a1a2e);
     font-weight: 600;
     letter-spacing: 0.05em;
 }
