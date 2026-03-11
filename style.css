@@ -4188,22 +4188,6 @@ section {
     margin-bottom: 16px;
 }
 
-.dashboard-main {
-    border-radius: 16px;
-    overflow: hidden;
-    margin-bottom: 12px;
-    border: 1px solid var(--border);
-    max-height: 400px;
-}
-
-.dashboard-main img {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    object-position: top;
-    max-height: 400px;
-}
-
 .dashboard-details-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -4221,7 +4205,8 @@ section {
 .dashboard-detail img {
     width: 100%;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
+    background: var(--bg-card, #fff);
 }
 
 .dashboard-detail span {
